@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\areas\\identity\\data\\studentsunite_iicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:areas\\identity\\data\\studentsunite_iicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\views\\comments\\opendiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\comments\\opendiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\views\\comments\\editcomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -127,7 +123,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 797,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -135,20 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentsUnite_IIContext.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Data\\StudentsUnite_IIContext.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\StudentsUnite_IIContext.cs",
-              "ToolTip": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Data\\StudentsUnite_IIContext.cs",
-              "RelativeToolTip": "Areas\\Identity\\Data\\StudentsUnite_IIContext.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAmwD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T17:48:11.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -156,11 +139,12 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAmwDwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T21:32:48.156Z"
+              "WhenOpened": "2024-04-25T21:32:48.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "EditComment.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Views\\Comments\\EditComment.cshtml",
               "RelativeDocumentMoniker": "Views\\Comments\\EditComment.cshtml",
@@ -172,15 +156,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "OpenDiscussion.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Views\\Comments\\OpenDiscussion.cshtml",
               "RelativeDocumentMoniker": "Views\\Comments\\OpenDiscussion.cshtml",
               "ToolTip": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Views\\Comments\\OpenDiscussion.cshtml",
               "RelativeToolTip": "Views\\Comments\\OpenDiscussion.cshtml",
-              "ViewState": "AQIAADQAAAAAAAAAAAAWwEYAAABCAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAEYAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T18:55:06.551Z"
+              "WhenOpened": "2024-05-13T18:55:06.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -196,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ListDiscussion.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Views\\Discussions\\ListDiscussion.cshtml",
               "RelativeDocumentMoniker": "Views\\Discussions\\ListDiscussion.cshtml",
@@ -208,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "AddCommentViewModel.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Models\\AddCommentViewModel.cs",
               "RelativeDocumentMoniker": "Models\\AddCommentViewModel.cs",
@@ -220,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AddDiscussion.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Views\\Discussions\\AddDiscussion.cshtml",
               "RelativeDocumentMoniker": "Views\\Discussions\\AddDiscussion.cshtml",
@@ -232,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "AddDiscussionViewModel.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Models\\AddDiscussionViewModel.cs",
               "RelativeDocumentMoniker": "Models\\AddDiscussionViewModel.cs",
@@ -244,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
@@ -256,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
@@ -268,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -280,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "PersonalData.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
@@ -292,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -304,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
@@ -316,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -328,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Discussion.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Models\\Discussion.cs",
               "RelativeDocumentMoniker": "Models\\Discussion.cs",
@@ -340,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\Category.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\Category.cs",
@@ -352,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -364,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -376,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -388,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "dbo.AspNetUsers [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/atti_pc/SU5/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "dbo.AspNetUsers [Data]",
@@ -397,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Friend.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Models\\Friend.cs",
               "RelativeDocumentMoniker": "Models\\Friend.cs",
@@ -409,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "20240507081722_addedDiscussion.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Migrations\\20240507081722_addedDiscussion.cs",
               "RelativeDocumentMoniker": "Migrations\\20240507081722_addedDiscussion.cs",
@@ -421,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "ManageNavPages.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
@@ -433,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -445,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -457,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "20240505172748_addedFriendsTable.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Migrations\\20240505172748_addedFriendsTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20240505172748_addedFriendsTable.cs",
@@ -469,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "dbo.Friend [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/atti_pc/SU5/True/SqlTable/dbo.Friend.sql",
               "ToolTip": "dbo.Friend [Data]",
@@ -478,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\ForumStudentsUnite-Comentarii\\ForumStudentsUnite-Comentarii\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
