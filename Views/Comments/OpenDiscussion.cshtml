@@ -1,0 +1,106 @@
+﻿@model Forum.Models.Discussion
+
+<h1>@Model.name</h1>
+
+<p><strong>User:</strong> @Model.user</p>
+<p><strong>Category:</strong> @Model.category</p>
+<p><strong>Description:</strong> @Model.description</p>
+<p><strong>Posted At:</strong> @Model.dateOfCreation.ToString("yyyy-MM-dd HH:mm:ss")</p>
+
+<form method="post" asp-controller="Comments" asp-action="AddComment">
+    <input type="hidden" name="DiscussionId" value="@Model.Id" />
+    <div class="form-group">
+        <label for="Content">Content:</label>
+        <textarea class="form-control" id="Content" name="Content"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Comment</button>
+</form>
+
+<hr />
+
+<h2>Comments</h2>
+@if (Model.Comments != null && Model.Comments.Any())
+{
+    <ul>
+        @foreach (var comment in Model.Comments.Where(c => c.parentId == null))
+        {
+            <li>
+                <p><strong>@comment.user:</strong> @comment.content</p>
+                <p><small>@comment.dateOfCreation.ToString("yyyy-MM-dd HH:mm:ss")</small></p>
+                @if (User.Identity.Name == comment.user)
+                {
+                    <a class="btn btn-sm btn-warning" asp-controller="Comments" asp-action="EditComment" asp-route-id="@comment.Id">Edit</a>
+                }
+                @if (User.Identity.Name == comment.user || User.IsInRole("Admin"))
+                {
+                    <form method="post" asp-controller="Comments" asp-action="DeleteComment" style="display:inline;">
+                        <input type="hidden" name="id" value="@comment.Id" />
+                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                    </form>
+                }
+
+                <button class="btn btn-sm btn-secondary" onclick="toggleReplyForm('@comment.Id')">Reply</button>
+
+                <!-- Reply Form -->
+                <div id="reply-form-@comment.Id" class="reply-form" style="display:none; margin-top:10px;">
+                    <form method="post" asp-controller="Comments" asp-action="AddReply">
+                        <input type="hidden" name="DiscussionId" value="@Model.Id" />
+                        <input type="hidden" name="ParentId" value="@comment.Id" />
+                        <div class="form-group">
+                            <label for="Content">Reply:</label>
+                            <textarea class="form-control" id="Content" name="Content"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Reply</button>
+                        <button type="button" class="btn btn-secondary" onclick="toggleReplyForm('@comment.Id')">Cancel</button>
+                    </form>
+                </div>
+
+                <!-- Display Replies -->
+                @if (comment.Replies != null && comment.Replies.Any())
+                {
+                    <ul>
+                        @foreach (var reply in comment.Replies)
+                        {
+                            <li>
+                                <p><strong>@reply.user:</strong> @reply.content</p>
+                                <p><small>@reply.dateOfCreation.ToString("yyyy-MM-dd HH:mm:ss")</small></p>
+                                @if (User.Identity.Name == reply.user)
+                                {
+                                    <a class="btn btn-sm btn-warning" asp-controller="Comments" asp-action="EditComment" asp-route-id="@reply.Id">Edit</a>
+                                }
+                                @if (User.Identity.Name == reply.user || User.IsInRole("Admin"))
+                                {
+                                    <form method="post" asp-controller="Comments" asp-action="DeleteComment" style="display:inline;">
+                                        <input type="hidden" name="id" value="@reply.Id" />
+                                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                    </form>
+                                }
+                            </li>
+                        }
+                    </ul>
+                }
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No comments yet.</p>
+}
+
+<div>
+    <a class="btn btn-primary" asp-controller="Discussions" asp-action="ListDiscussion">Back to Discussions</a>
+</div>
+
+@section Scripts {
+    <script>
+        function toggleReplyForm(commentId) {
+            var form = document.getElementById('reply-form-' + commentId);
+            if (form.style.display === 'none') {
+                form.style.display = 'block';
+            } else {
+                form.style.display = 'none';
+            }
+        }
+    </script>
+}
