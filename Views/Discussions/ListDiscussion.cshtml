@@ -1,8 +1,20 @@
 ﻿@using System.Text
 @using Microsoft.AspNetCore.Identity
 
+@{
+    ViewData["Title"] = "Index";
+    string searchString = ViewData["CurrentFilter"] as string;
+}
+
 @model List<Forum.Models.Discussion> 
 <h1> Discussions</h1>
+
+<form asp-controller="Discussions" asp-action="ListDiscussion" method="get">
+    <p>
+        Title: <input type="text" name="SearchString" placeholder="Search" value="@searchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 
 <table class="table">
     <thead>
@@ -22,7 +34,7 @@
         @foreach(var discussion in Model)
         {
             <tr>
-                <th>@discussion.Id</th>x
+                <th>@discussion.Id</th>
                 <td>@discussion.name</td>
                 <td>@discussion.user</td>
                 <td>@discussion.category</td>
@@ -32,7 +44,7 @@
                 <td>
                     <a class="btn btn-primary" asp-action="OpenDiscussion" asp-controller="Comments" asp-route-id="@discussion.Id">Open</a>
                     @{
-                        if (discussion.user == User.Identity.Name)
+                        if (discussion.user == User.Identity.Name || User.IsInRole("Admin"))
                         {
                             <a class="btn btn-primary" asp-controller="Discussions" asp-action="EditDiscussion" asp-route-id="@discussion.Id">Edit</a>
                         }

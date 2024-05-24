@@ -1,0 +1,50 @@
+﻿@using System.Text
+@using Microsoft.AspNetCore.Identity
+@using StudentsUnite_II.Areas.Identity.Data
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+@model List<ForumUser>
+
+<h1> Users</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+
+            <th>Block User</th>
+            <th>Discutions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <th>@u.Id</th>
+                <td>@u.UserName</td>
+                <td>@u.Email</td>
+                <td>@u.PhoneNumber</td>
+                <td>
+                    @if (u.LockoutEnd <= DateTimeOffset.Now || u.LockoutEnd == null)
+                    {
+                        <a class="btn btn-primary" asp-controller="Admin" asp-action="BlockUser" asp-route-id="@u.Id">Block</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-primary" asp-controller="Admin" asp-action="UnBlockUser" asp-route-id="@u.Id">Unblock</a>
+                    }
+          
+                </td>
+                <td> <a class="btn btn-primary" asp-controller="Admin" asp-action="ListUsersDiscussions" asp-route-id="@u">Discussions</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

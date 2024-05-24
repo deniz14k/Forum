@@ -11,15 +11,6 @@ namespace StudentsUnite_II.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_ForumUserForumUser_AspNetUsers_FreindsId",
-                table: "ForumUserForumUser");
-
-            migrationBuilder.RenameColumn(
-                name: "FreindsId",
-                table: "ForumUserForumUser",
-                newName: "FriendsId");
-
             migrationBuilder.CreateTable(
                 name: "Comments",
                 columns: table => new
@@ -47,37 +38,16 @@ namespace StudentsUnite_II.Migrations
                 table: "Comments",
                 column: "discussionId");
 
-            migrationBuilder.AddForeignKey(
-                name: "FK_ForumUserForumUser_AspNetUsers_FriendsId",
-                table: "ForumUserForumUser",
-                column: "FriendsId",
-                principalTable: "AspNetUsers",
-                principalColumn: "Id",
-                onDelete: ReferentialAction.Cascade);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_ForumUserForumUser_AspNetUsers_FriendsId",
-                table: "ForumUserForumUser");
-
+            
             migrationBuilder.DropTable(
                 name: "Comments");
 
-            migrationBuilder.RenameColumn(
-                name: "FriendsId",
-                table: "ForumUserForumUser",
-                newName: "FreindsId");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_ForumUserForumUser_AspNetUsers_FreindsId",
-                table: "ForumUserForumUser",
-                column: "FreindsId",
-                principalTable: "AspNetUsers",
-                principalColumn: "Id",
-                onDelete: ReferentialAction.Cascade);
+         
         }
     }
 }

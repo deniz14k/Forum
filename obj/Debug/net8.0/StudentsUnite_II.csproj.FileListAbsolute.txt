@@ -815,3 +815,6 @@ C:\Users\deniz\Downloads\ForumStudentsUnite-Comentarii\ForumStudentsUnite-Coment
 C:\Users\deniz\Downloads\ForumStudentsUnite-Comentarii\ForumStudentsUnite-Comentarii\obj\Debug\net8.0\StudentsUnite_II.pdb
 C:\Users\deniz\Downloads\ForumStudentsUnite-Comentarii\ForumStudentsUnite-Comentarii\obj\Debug\net8.0\StudentsUnite_II.genruntimeconfig.cache
 C:\Users\deniz\Downloads\ForumStudentsUnite-Comentarii\ForumStudentsUnite-Comentarii\obj\Debug\net8.0\ref\StudentsUnite_II.dll
+C:\Users\Atti\Desktop\II\ForumStudentsUnite\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Atti\Desktop\II\ForumStudentsUnite\bin\Debug\net8.0\MailKit.dll
+C:\Users\Atti\Desktop\II\ForumStudentsUnite\bin\Debug\net8.0\MimeKit.dll

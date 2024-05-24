@@ -11,7 +11,7 @@
     <input type="hidden" name="DiscussionId" value="@Model.Id" />
     <div class="form-group">
         <label for="Content">Content:</label>
-        <textarea class="form-control" id="Content" name="Content"></textarea>
+        <textarea class="form-control" id="Content" name="Content" required></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Add Comment</button>
 </form>
@@ -48,7 +48,7 @@
                         <input type="hidden" name="ParentId" value="@comment.Id" />
                         <div class="form-group">
                             <label for="Content">Reply:</label>
-                            <textarea class="form-control" id="Content" name="Content"></textarea>
+                            <textarea class="form-control" id="Content" name="Content" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit Reply</button>
                         <button type="button" class="btn btn-secondary" onclick="toggleReplyForm('@comment.Id')">Cancel</button>

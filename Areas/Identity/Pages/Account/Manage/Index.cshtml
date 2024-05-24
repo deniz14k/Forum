@@ -16,7 +16,44 @@
                 <label asp-for="Username" class="form-label"></label>
             </div>
             <div class="form-floating mb-3">
-                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number."/>
+                <input asp-for="Input.Description" class="form-control" placeholder="Tell about yourself." />
+                <label asp-for="Input.Description" class="form-label"></label>
+                <span asp-validation-for="Input.Description" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Departament" class="form-control" placeholder="What departament are you in?" />
+                <label asp-for="Input.Departament" class="form-label"></label>
+                <span asp-validation-for="Input.Departament" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Specialization" class="form-control" placeholder="What is your specialization?" />
+                <label asp-for="Input.Specialization" class="form-label"></label>
+                <span asp-validation-for="Input.Specialization" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <select asp-for="Input.YearOfStudy" class="form-control">
+                    <option value="0">Select your year of study</option>
+                    <option value="1">I</option>
+                    <option value="2">II</option>
+                    <option value="3">III</option>
+                    <option value="4">IV</option>
+                    <option value="5">I MA</option>
+                    <option value="6">II MA</option>
+                    <option value="7">I PHD</option>
+                    <option value="8">II PHD</option>
+                    <option value="9">III PHD</option>
+                
+                </select>
+                <label asp-for="Input.YearOfStudy" class="form-label"></label>
+                <span asp-validation-for="Input.YearOfStudy" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.PersonalPageLink" class="form-control" placeholder="Link your social:" />
+                <label asp-for="Input.PersonalPageLink" class="form-label"></label>
+                <span asp-validation-for="Input.PersonalPageLink" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number." />
                 <label asp-for="Input.PhoneNumber" class="form-label"></label>
                 <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
             </div>

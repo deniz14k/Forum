@@ -2,7 +2,44 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@model List<Forum.Models.Discussion>
+<h1> Discussions</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>User</th>
+            <th>Category</th>
+            <th>Posted At</th>
+            <th>Description</th>
+
+            <th> </th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var discussion in Model)
+        {
+            <tr>
+                <th>@discussion.Id</th>
+                <td>@discussion.name</td>
+                <td>@discussion.user</td>
+                <td>@discussion.category</td>
+                <td>@discussion.dateOfCreation</td>
+                <td>@discussion.description</td>
+
+                <td>
+                    <a class="btn btn-primary" asp-action="OpenDiscussion" asp-controller="Comments" asp-route-id="@discussion.Id">Open</a>
+                    @{
+                        if (discussion.user == User.Identity.Name || User.IsInRole("Admin"))
+                        {
+                            <a class="btn btn-primary" asp-controller="Discussions" asp-action="EditDiscussion" asp-route-id="@discussion.Id">Edit</a>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

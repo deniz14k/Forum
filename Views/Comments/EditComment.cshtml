@@ -13,7 +13,7 @@ else
             <label class="form-label">Edit Comment</label>
             <input type="hidden" asp-for="Id" />
             <input type="hidden" asp-for="discussionId" />
-            <textarea class="form-control" asp-for="content"></textarea>
+            <textarea class="form-control" asp-for="content" required></textarea>
         </div>
         <div class="mt-3">
             <button type="submit" class="btn btn-primary">Update Comment</button>

@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using StudentsUnite_II.Areas.Identity.Data;
+using StudentsUnite_II.Data;
 
 namespace StudentsUnite_II.Areas.Identity.Pages.Account.Manage
 {
@@ -17,11 +19,14 @@ namespace StudentsUnite_II.Areas.Identity.Pages.Account.Manage
     {
         private readonly UserManager<ForumUser> _userManager;
         private readonly SignInManager<ForumUser> _signInManager;
+        private readonly StudentsUnite_IIContext _dbContext;
 
         public IndexModel(
             UserManager<ForumUser> userManager,
-            SignInManager<ForumUser> signInManager)
+            SignInManager<ForumUser> signInManager,
+            StudentsUnite_IIContext dbContext)
         {
+            _dbContext = dbContext;
             _userManager = userManager;
             _signInManager = signInManager;
         }
@@ -59,18 +64,46 @@ namespace StudentsUnite_II.Areas.Identity.Pages.Account.Manage
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
+
+            [Display(Name = "Departament")]
+            public string Departament { get; set; }
+
+            [Display(Name = "Specialization")]
+            public string Specialization { get; set; }
+
+            [Display(Name = "Year Of Study")]
+            public int YearOfStudy { get; set; }
+
+            [Display(Name = "Description")]
+            public string Description { get; set; }
+
+            [Display(Name = "Personal Page Link")]
+            public string PersonalPageLink { get; set; }
+
+
         }
 
         private async Task LoadAsync(ForumUser user)
         {
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
+            var departament = user.departament;
+            var specialization = user.specialization;
+            var yearOfStudy = user.yearOfStudy;
+            var description = user.description;
+            var personalPageLink = user.personalPageLink;
+
 
             Username = userName;
 
             Input = new InputModel
             {
-                PhoneNumber = phoneNumber
+                PhoneNumber = phoneNumber,
+                Departament = departament, //
+                Specialization = specialization, //
+                YearOfStudy = yearOfStudy ?? 0, //
+                Description = description, //
+                PersonalPageLink = personalPageLink
             };
         }
 
@@ -110,6 +143,69 @@ namespace StudentsUnite_II.Areas.Identity.Pages.Account.Manage
                     return RedirectToPage();
                 }
             }
+
+            var departament = user.departament;
+            if (Input.Departament != departament)
+            {
+                user.departament = Input.Departament;
+
+                var setDepartmentResult = await _userManager.UpdateAsync(user);  
+                if (!setDepartmentResult.Succeeded)
+                {
+                    StatusMessage = "Unexpected error when trying to set department.";
+                    return RedirectToPage();
+                }
+            }
+
+            var specialization = user.specialization;
+            if (Input.Specialization != specialization)
+            {
+                user.specialization = Input.Specialization;
+                var setSpecializationResult = await _userManager.UpdateAsync(user);
+                if (!setSpecializationResult.Succeeded)
+                {
+                    StatusMessage = "Unexpected error when trying to set specialization.";
+                    return RedirectToPage();
+                }
+            }
+
+            var yearOfStudy = user.yearOfStudy;
+            if (Input.YearOfStudy != yearOfStudy.GetValueOrDefault())
+            {
+                user.yearOfStudy = Input.YearOfStudy;
+                var setYearOfStudyResult = await _userManager.UpdateAsync(user);
+                if (!setYearOfStudyResult.Succeeded)
+                {
+                    StatusMessage = "Unexpected error when trying to set year of study.";
+                    return RedirectToPage();
+                }
+            }
+            var description = user.description;
+            if (Input.Description != description)
+            {
+                user.description = Input.Description;
+                var setDescriptionResult = await _userManager.UpdateAsync(user);
+                if (!setDescriptionResult.Succeeded)
+                {
+                    StatusMessage = "Unexpected error when trying to set description.";
+                    return RedirectToPage();
+                }
+            }
+
+            var personalPageLink = user.personalPageLink;
+            if (Input.PersonalPageLink != personalPageLink)
+            {
+                user.personalPageLink = Input.PersonalPageLink;
+                var setPersonalPageLinkResult = await _userManager.UpdateAsync(user);
+                if (!setPersonalPageLinkResult.Succeeded)
+                {
+                    StatusMessage = "Unexpected error when trying to set personal page link.";
+                    return RedirectToPage();
+                }
+            }
+
+
+
 
             await _signInManager.RefreshSignInAsync(user);
             StatusMessage = "Your profile has been updated";

@@ -106,21 +106,6 @@ namespace StudentsUnite_II.Migrations
                     b.ToTable("Tags");
                 });
 
-            modelBuilder.Entity("ForumUserForumUser", b =>
-                {
-                    b.Property<string>("FriendsId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("UsersId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("FriendsId", "UsersId");
-
-                    b.HasIndex("UsersId");
-
-                    b.ToTable("ForumUserForumUser");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -310,6 +295,21 @@ namespace StudentsUnite_II.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
+                    b.Property<string>("departament")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("personalPageLink")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("specialization")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("yearOfStudy")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")
@@ -354,21 +354,6 @@ namespace StudentsUnite_II.Migrations
                     b.Navigation("Parent");
 
                     b.Navigation("discussion");
-                });
-
-            modelBuilder.Entity("ForumUserForumUser", b =>
-                {
-                    b.HasOne("StudentsUnite_II.Areas.Identity.Data.ForumUser", null)
-                        .WithMany()
-                        .HasForeignKey("FriendsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("StudentsUnite_II.Areas.Identity.Data.ForumUser", null)
-                        .WithMany()
-                        .HasForeignKey("UsersId")
-                        .OnDelete(DeleteBehavior.ClientCascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

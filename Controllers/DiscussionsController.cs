@@ -99,9 +99,18 @@ namespace StudentsUnite_II.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> ListDiscussion()
+        public async Task<IActionResult> ListDiscussion(string searchString)
         {
-            var discussions = await dbContext.Discussions.ToListAsync();
+            var discussions = await dbContext.Discussions.OrderByDescending(d => d.dateOfCreation).ToListAsync();
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                discussions = await dbContext.Discussions.Where(d => d.name.Contains(searchString)).OrderByDescending(d => d.dateOfCreation).ToListAsync();
+            }
+
+
+            ViewData["CurrentFilter"] = searchString;
+
 
             return View(discussions);
         }

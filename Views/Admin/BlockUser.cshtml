@@ -1,0 +1,51 @@
+﻿@using System.Text
+@using Microsoft.AspNetCore.Identity
+@using StudentsUnite_II.Areas.Identity.Data
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+@model ForumUser
+
+<h1> Users</h1>
+
+@if (Model == null)
+{
+    <p>No User with this id.</p>
+}
+else
+{
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+
+            <th>Block User</th>
+            <th>Discutions</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <th>@Model.Id</th>
+                <td>@Model.UserName</td>
+                <td>@Model.Email</td>
+                <td>@Model.PhoneNumber</td>
+            </tr>
+            <tr>
+            <td>
+                <form method="post">
+                    <button type="submit" class="btn btn-danger ms-3" asp-action="BlockUser" asp-controller="Admin">Block</button>
+                </form>
+            </td>
+            <td><a class="btn btn-primary" asp-controller="Admin" asp-action="ListUsers">Back</a></td>
+            </tr>
+    </tbody>
+</table>
+}
