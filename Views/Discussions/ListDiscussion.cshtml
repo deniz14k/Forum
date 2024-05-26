@@ -4,6 +4,8 @@
 @{
     ViewData["Title"] = "Index";
     string searchString = ViewData["CurrentFilter"] as string;
+    bool myDiscussions = ViewData["MyDiscussions"] != null && (bool)ViewData["MyDiscussions"];
+
 }
 
 @model List<Forum.Models.Discussion> 
@@ -14,6 +16,9 @@
         Title: <input type="text" name="SearchString" placeholder="Search" value="@searchString" />
         <input type="submit" value="Filter" />
     </p>
+
+    <input type="checkbox" name="MyDiscussions" value="true" @(myDiscussions ? "checked" : "")>
+    <label for="MyDiscussions"> My Discussions:</label><br>
 </form>
 
 <table class="table">

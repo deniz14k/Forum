@@ -61,7 +61,8 @@ namespace StudentsUnite_II.Controllers
 
 
             await _userManager.SetLockoutEndDateAsync(user, lockoutDate);
-            
+
+
             return RedirectToAction("ListUsers", "Admin");
         }
 
@@ -119,46 +120,7 @@ namespace StudentsUnite_II.Controllers
         }
 
 
-        private void sendBlockedEmail(string blockedUsersName,string blockedUsersEmail)
-        {
-            string smtpUserName  = "admin@admin.com";
-            string smtpPassword = "1234Asdf.";
-            string smtpEmail = "admin@admin.com";
 
-            var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("Admin - SU", smtpEmail));
-            message.To.Add(new MailboxAddress(blockedUsersName, blockedUsersEmail));
-            message.Subject = "Notice of being blocked";
-
-            message.Body = new TextPart("plain")
-            {
-                Text =
-                @"Hi there,
-
-This email is a notice of you being blocked due to not respecting our guidlines.
-
-If you do not consider our action rightfull, 
-please contact us, by writing on the following addres:
-admin@admin.com
-
-Thank you for your time.
-Student Unite, 
-Administration
-
-Have a great day."
-            };
-
-            using (var client = new SmtpClient())
-            {
-                client.Connect("smtp.gmail.com", 587, false);
-
-                // Note: only needed if the SMTP server requires authentication
-                client.Authenticate(smtpUserName, smtpPassword);
-
-                client.Send(message);
-                client.Disconnect(true);
-            }
-        }
 
     }
 }
