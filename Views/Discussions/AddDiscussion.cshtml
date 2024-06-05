@@ -6,20 +6,24 @@
 
 @model StudentsUnite_II.Models.AddDiscussionViewModel
 
+
 <h1>Add Thread</h1>
 
-<form method="post">
+<form method="post" onsubmit="return validateForm() >
     <div class="mt-3">
         <label class="form-label">Name</label>
-        <input type="text" class="form-control" asp-for="name" required></input>
+        <input type="text" class="form-control" id="name" asp-for="name" required></input>
+        <span asp-validation-for="name" class="text-danger"></span>
     </div>
     <div class="mt-3">
         <label class="form-label">Category</label>
-        <input type="text" class="form-control" asp-for="category" required></input>
+        <input type="text" class="form-control" id="category"  asp-for="category" required></input>
+        <span asp-validation-for="category" class="text-danger"></span>
     </div>
     <div class="mt-3">
         <label class="form-label">Description</label>
-        <input type="text" class="form-control" asp-for="description" required></input>
+        <input type="text" class="form-control" id="description" asp-for="description" required></input>
+        <span asp-validation-for="description" class="text-danger"></span>
     </div>
 
     <div class="mt-3">
@@ -28,5 +32,27 @@
 
     </div>
 
+ 
 
 </form>
+
+
+<script>
+    function validateForm() {
+        var name = document.getElementById("name").value.trim;
+        var email = document.getElementById("category").value.trim;
+        var description = document.getElementById("description").value.trim;
+
+        if (name == "" || category == "" || description == "") {
+            alert("Please fill all the fields with propriate values.")
+            return false;
+        }
+        return true;
+
+    }
+
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

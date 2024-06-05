@@ -1,0 +1,11 @@
+*.vsdx
+*.dll
+*.v2
+*.suo
+*.pdb
+*.exe
+*.cache
+*.com
+*.class
+*.o
+*.so

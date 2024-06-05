@@ -96,6 +96,9 @@ namespace StudentsUnite_II.Controllers
             return View(discussions);
         }
 
+
+
+
         [HttpPost]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteDiscussion(Guid Id)

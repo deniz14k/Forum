@@ -3,43 +3,26 @@
 }
 
 @model List<Forum.Models.Discussion>
-<h1> Discussions</h1>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>User</th>
-            <th>Category</th>
-            <th>Posted At</th>
-            <th>Description</th>
+<h1 class="text-center my-4">Latest Discussions</h1>
 
-            <th> </th>
-            <th> </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var discussion in Model)
-        {
-            <tr>
-                <th>@discussion.Id</th>
-                <td>@discussion.name</td>
-                <td>@discussion.user</td>
-                <td>@discussion.category</td>
-                <td>@discussion.dateOfCreation</td>
-                <td>@discussion.description</td>
-
-                <td>
-                    <a class="btn btn-primary" asp-action="OpenDiscussion" asp-controller="Comments" asp-route-id="@discussion.Id">Open</a>
-                    @{
-                        if (discussion.user == User.Identity.Name || User.IsInRole("Admin"))
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            @foreach (var discussion in Model)
+            {
+                <a class="card mb-4 text-decoration-none text-dark" asp-action="OpenDiscussion" asp-controller="Comments" asp-route-id="@discussion.Id">
+                    <div class="card-body">
+                        <h5 class="card-title">@discussion.name</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Posted by @discussion.user in @discussion.category on @discussion.dateOfCreation.ToString("g")</h6>
+                        <p class="card-text">@discussion.description</p>
+                        @if (discussion.user == User.Identity.Name || User.IsInRole("Admin"))
                         {
-                            <a class="btn btn-primary" asp-controller="Discussions" asp-action="EditDiscussion" asp-route-id="@discussion.Id">Edit</a>
+                            <a class="btn btn-secondary btn-sm" asp-action="EditDiscussion" asp-controller="Discussions" asp-route-id="@discussion.Id" onclick="event.stopPropagation();">Edit</a>
                         }
-                    }
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+                    </div>
+                </a>
+            }
+        </div>
+    </div>
+</div>

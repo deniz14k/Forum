@@ -62,9 +62,6 @@ namespace StudentsUnite_II.Migrations
         {
 
             migrationBuilder.DropTable(
-                name: "Friend");
-
-            migrationBuilder.DropTable(
                 name: "Tags");
 
            

@@ -41,60 +41,68 @@ namespace StudentsUnite_II.Controllers
         public async Task<IActionResult> AddDiscussion(AddDiscussionViewModel addDiscussionViewModel)
         {
 
-            var tagNames = addDiscussionViewModel.category.Split(',');
+            if (ModelState.IsValid) { 
 
-            var tags = new List<Tag>();
+                var tagNames = addDiscussionViewModel.category.TrimStart(' ').Split(',');
 
-            foreach(var tagName in tagNames)
-            {
-                var tagNameTrimmed = tagName.Trim();
-                if (!tagNameTrimmed.IsNullOrEmpty())
+                var tags = new List<Tag>();
+
+                foreach(var tagName in tagNames)
                 {
-                    var tag = await dbContext.Tags.FirstOrDefaultAsync(t => t.name == tagNameTrimmed);
-                    if (tag == null)
+                    var tagNameTrimmed = tagName.Trim();
+                    if (!tagNameTrimmed.IsNullOrEmpty())
                     {
-                        tag = new Tag
+                        var tag = await dbContext.Tags.FirstOrDefaultAsync(t => t.name == tagNameTrimmed);
+                        if (tag == null)
                         {
-                            name = tagNameTrimmed,
-                            dateOfCreation = DateTime.Now,
-                            user = await _userManager.GetUserNameAsync(GetCurrentUserAsync().Result)
+                            tag = new Tag
+                            {
+                                name = tagNameTrimmed,
+                                dateOfCreation = DateTime.Now,
+                                user = await _userManager.GetUserNameAsync(GetCurrentUserAsync().Result)
 
-                        };
-                        await dbContext.Tags.AddAsync(tag);
+                            };
+                            await dbContext.Tags.AddAsync(tag);
+                        }
+                        tags.Add(tag);
                     }
-                    tags.Add(tag);
+
                 }
 
-            }
 
-
-            var discussion = new Discussion
-            {
-                name = addDiscussionViewModel.name,
-                category = string.Join(" , ",tagNames),
-                description = addDiscussionViewModel.description,
-                dateOfCreation = DateTime.Now,
-                user = await _userManager.GetUserNameAsync(GetCurrentUserAsync().Result)
-                };
+                var discussion = new Discussion
+                {
+                    name = addDiscussionViewModel.name.TrimStart(' '),
+                    category = string.Join(" , ",tagNames),
+                    description = addDiscussionViewModel.description.TrimStart(' '),
+                    dateOfCreation = DateTime.Now,
+                    user = await _userManager.GetUserNameAsync(GetCurrentUserAsync().Result)
+                    };
 
             
-            await dbContext.Discussions.AddAsync(discussion);
+                await dbContext.Discussions.AddAsync(discussion);
 
-            await dbContext.SaveChangesAsync();
+                await dbContext.SaveChangesAsync();
 
-            foreach(var tag in tags)
-            {
-               var discussionTag = new DiscussionTag
+                foreach(var tag in tags)
                 {
-                    discussionId = discussion.Id,
-                    tagId = tag.Id
-                };
-                await dbContext.AddAsync(discussionTag);
+                   var discussionTag = new DiscussionTag
+                    {
+                        discussionId = discussion.Id,
+                        tagId = tag.Id
+                    };
+                    await dbContext.AddAsync(discussionTag);
+                }
+                await dbContext.SaveChangesAsync();
+
+
+                return RedirectToAction("ListDiscussion", "Discussions");
+
             }
-            await dbContext.SaveChangesAsync();
+            else {
+                return View(addDiscussionViewModel); 
+            }
 
-
-            return RedirectToAction("ListDiscussion", "Discussions");
         }
 
 
