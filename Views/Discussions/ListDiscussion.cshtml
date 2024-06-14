@@ -2,63 +2,54 @@
 @using Microsoft.AspNetCore.Identity
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Discussions";
     string searchString = ViewData["CurrentFilter"] as string;
     bool myDiscussions = ViewData["MyDiscussions"] != null && (bool)ViewData["MyDiscussions"];
 
 }
-
 @model List<Forum.Models.Discussion> 
-<h1> Discussions</h1>
 
-<form asp-controller="Discussions" asp-action="ListDiscussion" method="get">
-    <p>
-        Title: <input type="text" name="SearchString" placeholder="Search" value="@searchString" />
-        <input type="submit" value="Filter" />
-    </p>
+<div class="search-container">
 
-    <input type="checkbox" name="MyDiscussions" value="true" @(myDiscussions ? "checked" : "")>
-    <label for="MyDiscussions"> My Discussions:</label><br>
-</form>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>User</th>
-            <th>Category</th>
-            <th>Posted At</th>
-            <th>Description</th>
-
-            <th> </th>
-            <th> </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(var discussion in Model)
+    <form asp-controller="Discussions" asp-action="ListDiscussion" method="get">
+        <input type="text" name="SearchString" placeholder="Search" value="@searchString" />
+        <input type="submit" value="Search" />
+        @if (User.Identity.IsAuthenticated)
         {
-            <tr>
-                <th>@discussion.Id</th>
-                <td>@discussion.name</td>
-                <td>@discussion.user</td>
-                <td>@discussion.category</td>
-                <td>@discussion.dateOfCreation</td>
-                <td>@discussion.description</td>
-                
-                <td>
-                    <a class="btn btn-primary" asp-action="OpenDiscussion" asp-controller="Comments" asp-route-id="@discussion.Id">Open</a>
-                    @{
-                        if (discussion.user == User.Identity.Name || User.IsInRole("Admin"))
-                        {
-                            <a class="btn btn-primary" asp-controller="Discussions" asp-action="EditDiscussion" asp-route-id="@discussion.Id">Edit</a>
-                        }
-                    }
-                </td>
-            </tr>
+            <label for="MyDiscussions">
+                <input type="checkbox" id="MyDiscussions" name="MyDiscussions" value="true" @(myDiscussions ? "checked" : "")>
+                My Discussions
+            </label>
         }
-    </tbody>
-</table>
-<div>
-    <a class="btn btn-primary" asp-controller="Discussions" asp-action="AddDiscussion">Add</a>
+    </form>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            @foreach (var discussion in Model)
+            {
+                <div class="card mb-4">
+                    <div class="card-body custom-card-body">
+                        <a class="text-decoration-none text-dark" asp-action="OpenDiscussion" asp-controller="Comments" asp-route-id="@discussion.Id">
+                            <h5 class="card-title">@discussion.name</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Posted by @discussion.user on @discussion.dateOfCreation.ToString("g")</h6>
+                            <p class="card-text mb-3">@discussion.description</p>
+                        </a>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h6 class="card-subtitle mb-0 text-muted me-3">Tags: @discussion.category</h6>
+                            @if (discussion.user == User.Identity.Name || User.IsInRole("Admin"))
+                            {
+                                <a class="btn btn-edit btn-sm" asp-action="EditDiscussion" asp-controller="Discussions" asp-route-id="@discussion.Id" onclick="event.stopPropagation();">Edit</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="floating-btn-container">
+    <a class="btn btn-primary floating-btn" asp-controller="Discussions" asp-action="AddDiscussion">Add</a>
 </div>

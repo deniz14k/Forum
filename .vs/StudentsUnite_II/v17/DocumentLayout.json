@@ -1,508 +1,400 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\",
+  "WorkspaceRootPath": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240524194212_extendedforumuser3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240524194212_extendedforumuser3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240522082737_repl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240522082737_repl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240518134827_visibilityoff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240518134827_visibilityoff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240518132606_commen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240518132606_commen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240512194111_adddeddbsetfordt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240512194111_adddeddbsetfordt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240512180632_addedtasktry2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240512180632_addedtasktry2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240512170636_addeddiscussionstags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240512170636_addeddiscussionstags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240512165255_addedtags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240512165255_addedtags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240507081722_addeddiscussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240507081722_addeddiscussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\migrations\\20240423144024_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:migrations\\20240423144024_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\atti\\desktop\\ii\\forumstudentsunite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\deniz\\downloads\\final_finalforumstudentsunite\\forumstudentsunite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\deniz\\downloads\\final_finalforumstudentsunite\\forumstudentsunite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|c:\\users\\deniz\\downloads\\final_finalforumstudentsunite\\forumstudentsunite\\models\\adddiscussionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:models\\adddiscussionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\models\\discussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:models\\discussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\controllers\\discussionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:controllers\\discussionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\discussions\\listdiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\discussions\\listdiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\discussions\\editdiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\discussions\\editdiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\discussions\\adddiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\discussions\\adddiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\comments\\opendiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\comments\\opendiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\comments\\editcomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\comments\\editcomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\admin\\unblockuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\admin\\unblockuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\admin\\listusersdiscussions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\admin\\listusersdiscussions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\admin\\blockuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\admin\\blockuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\views\\admin\\listusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\admin\\listusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/atti_pc/SU5/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\views\\discussions\\editdiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\discussions\\editdiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\controllers\\discussionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:controllers\\discussionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\models\\addcommentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:models\\addcommentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\models\\addreplyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:models\\addreplyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\views\\discussions\\adddiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\discussions\\adddiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\models\\adddiscussionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:models\\adddiscussionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\customvalidations\\nowhitespaceonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:customvalidations\\nowhitespaceonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\models\\discussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:models\\discussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\views\\discussions\\listdiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:views\\discussions\\listdiscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/atti_pc/SU5/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/atti_pc/SU5/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{34C61745-6453-470F-83A4-11A858D5164D}|StudentsUnite_II.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 478,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 232,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240524194212_ExtendedForumUser3.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240524194212_ExtendedForumUser3.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240524194212_ExtendedForumUser3.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240524194212_ExtendedForumUser3.cs",
-              "RelativeToolTip": "Migrations\\20240524194212_ExtendedForumUser3.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAEEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:06:35.154Z",
+              "WhenOpened": "2024-06-14T10:57:26.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20240522082737_repl.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240522082737_repl.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240522082737_repl.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240522082737_repl.cs",
-              "RelativeToolTip": "Migrations\\20240522082737_repl.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:06:27.115Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-14T10:51:23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20240518134827_visibilityOFF.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240518134827_visibilityOFF.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240518134827_visibilityOFF.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240518134827_visibilityOFF.cs",
-              "RelativeToolTip": "Migrations\\20240518134827_visibilityOFF.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Title": "AddDiscussionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Models\\AddDiscussionViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AddDiscussionViewModel.cs",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Models\\AddDiscussionViewModel.cs",
+              "RelativeToolTip": "Models\\AddDiscussionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:06:24.579Z",
+              "WhenOpened": "2024-06-06T21:42:47.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20240518132606_commen.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240518132606_commen.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240518132606_commen.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240518132606_commen.cs",
-              "RelativeToolTip": "Migrations\\20240518132606_commen.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Title": "Discussion.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Models\\Discussion.cs",
+              "RelativeDocumentMoniker": "Models\\Discussion.cs",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Models\\Discussion.cs",
+              "RelativeToolTip": "Models\\Discussion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:06:16.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240512194111_adddeddbsetfordt.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240512194111_adddeddbsetfordt.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240512194111_adddeddbsetfordt.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240512194111_adddeddbsetfordt.cs",
-              "RelativeToolTip": "Migrations\\20240512194111_adddeddbsetfordt.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:05:58.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240512180632_addedTaskTry2.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240512180632_addedTaskTry2.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240512180632_addedTaskTry2.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240512180632_addedTaskTry2.cs",
-              "RelativeToolTip": "Migrations\\20240512180632_addedTaskTry2.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAgwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:05:45.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240512170636_AddedDiscussionsTags.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240512170636_AddedDiscussionsTags.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240512170636_AddedDiscussionsTags.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240512170636_AddedDiscussionsTags.cs",
-              "RelativeToolTip": "Migrations\\20240512170636_AddedDiscussionsTags.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:05:37.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240507081722_addedDiscussion.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240507081722_addedDiscussion.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240507081722_addedDiscussion.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240507081722_addedDiscussion.cs",
-              "RelativeToolTip": "Migrations\\20240507081722_addedDiscussion.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:03:46.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240512165255_AddedTags.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240512165255_AddedTags.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240512165255_AddedTags.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240512165255_AddedTags.cs",
-              "RelativeToolTip": "Migrations\\20240512165255_AddedTags.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAgwA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:03:31.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20240423144024_first.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240423144024_first.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240423144024_first.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Migrations\\20240423144024_first.cs",
-              "RelativeToolTip": "Migrations\\20240423144024_first.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAEEAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:02:25.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T14:54:14.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T14:26:15.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "dbo.AspNetUsers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/atti_pc/SU5/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-06-05T14:19:24.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAYwIoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T13:40:07.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T13:40:05.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EditDiscussion.cshtml",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Discussions\\EditDiscussion.cshtml",
-              "RelativeDocumentMoniker": "Views\\Discussions\\EditDiscussion.cshtml",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Discussions\\EditDiscussion.cshtml",
-              "RelativeToolTip": "Views\\Discussions\\EditDiscussion.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAABIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T04:57:58.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AddDiscussionViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\AddDiscussionViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\AddDiscussionViewModel.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\AddDiscussionViewModel.cs",
-              "RelativeToolTip": "Models\\AddDiscussionViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T04:36:53.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AddDiscussion.cshtml",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Discussions\\AddDiscussion.cshtml",
-              "RelativeDocumentMoniker": "Views\\Discussions\\AddDiscussion.cshtml",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Discussions\\AddDiscussion.cshtml",
-              "RelativeToolTip": "Views\\Discussions\\AddDiscussion.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T04:29:41.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DiscussionsController.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Controllers\\DiscussionsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DiscussionsController.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Controllers\\DiscussionsController.cs",
-              "RelativeToolTip": "Controllers\\DiscussionsController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwBQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T14:17:32.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CommentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Controllers\\CommentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CommentsController.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Controllers\\CommentsController.cs",
-              "RelativeToolTip": "Controllers\\CommentsController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAcwCYAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T05:05:49.909Z"
+              "WhenOpened": "2024-06-06T21:42:29.474Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAuwGIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T05:05:46.699Z"
+              "Title": "EditComment.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Comments\\EditComment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comments\\EditComment.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Comments\\EditComment.cshtml",
+              "RelativeToolTip": "Views\\Comments\\EditComment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T20:23:48.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 14,
+              "Title": "UnBlockUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Admin\\UnBlockUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UnBlockUser.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Admin\\UnBlockUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UnBlockUser.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T20:19:09.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BlockUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Admin\\BlockUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\BlockUser.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Admin\\BlockUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\BlockUser.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T20:18:12.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwC8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T05:05:44.725Z"
+              "WhenOpened": "2024-06-06T20:03:21.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiscussionsController.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Controllers\\DiscussionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DiscussionsController.cs",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Controllers\\DiscussionsController.cs",
+              "RelativeToolTip": "Controllers\\DiscussionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T19:52:04.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditDiscussion.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Discussions\\EditDiscussion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Discussions\\EditDiscussion.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Discussions\\EditDiscussion.cshtml",
+              "RelativeToolTip": "Views\\Discussions\\EditDiscussion.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T19:49:09.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ListUsersDiscussions.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Admin\\ListUsersDiscussions.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ListUsersDiscussions.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Admin\\ListUsersDiscussions.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ListUsersDiscussions.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T19:43:04.743Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "AddCommentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\AddCommentViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\AddCommentViewModel.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\AddCommentViewModel.cs",
-              "RelativeToolTip": "Models\\AddCommentViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAQwDAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T04:36:51.856Z"
+              "WhenOpened": "2024-06-06T19:27:25.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAkwHcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T19:27:01.488Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "AddReplyViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\AddReplyViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\AddReplyViewModel.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\AddReplyViewModel.cs",
-              "RelativeToolTip": "Models\\AddReplyViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T13:28:02.078Z"
+              "Title": "dbo.AspNetUserRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/atti_pc/SU5/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "dbo.AspNetUserRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-06T19:26:16.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "NoWhiteSpaceOnlyAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\CustomValidations\\NoWhiteSpaceOnlyAttribute.cs",
-              "RelativeDocumentMoniker": "CustomValidations\\NoWhiteSpaceOnlyAttribute.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\CustomValidations\\NoWhiteSpaceOnlyAttribute.cs",
-              "RelativeToolTip": "CustomValidations\\NoWhiteSpaceOnlyAttribute.cs",
+              "DocumentIndex": 22,
+              "Title": "dbo.AspNetRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/atti_pc/SU5/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-06T19:25:22.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T19:23:06.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/atti_pc/SU5/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-06T19:19:27.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T19:18:19.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ListUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Admin\\ListUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ListUsers.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Admin\\ListUsers.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ListUsers.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T04:39:36.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T04:46:40.342Z"
+              "WhenOpened": "2024-06-06T19:17:26.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Discussion.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\Discussion.cs",
-              "RelativeDocumentMoniker": "Models\\Discussion.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Models\\Discussion.cs",
-              "RelativeToolTip": "Models\\Discussion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T04:29:23.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAUwHwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T04:28:12.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "AddDiscussion.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Discussions\\AddDiscussion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Discussions\\AddDiscussion.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Discussions\\AddDiscussion.cshtml",
+              "RelativeToolTip": "Views\\Discussions\\AddDiscussion.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T04:25:24.425Z"
+              "WhenOpened": "2024-06-06T19:15:27.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T18:50:42.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ListDiscussion.cshtml",
-              "DocumentMoniker": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Discussions\\ListDiscussion.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Discussions\\ListDiscussion.cshtml",
               "RelativeDocumentMoniker": "Views\\Discussions\\ListDiscussion.cshtml",
-              "ToolTip": "C:\\Users\\Atti\\Desktop\\II\\ForumStudentsUnite\\Views\\Discussions\\ListDiscussion.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Discussions\\ListDiscussion.cshtml",
               "RelativeToolTip": "Views\\Discussions\\ListDiscussion.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T14:16:32.027Z"
+              "WhenOpened": "2024-06-06T17:40:37.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OpenDiscussion.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Comments\\OpenDiscussion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comments\\OpenDiscussion.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\Views\\Comments\\OpenDiscussion.cshtml",
+              "RelativeToolTip": "Views\\Comments\\OpenDiscussion.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T17:03:39.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\deniz\\Downloads\\Final_FInalForumStudentsUnite\\ForumStudentsUnite\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAIkBAAAAAAAAAAAAAI8BAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-06T17:01:29.506Z"
             }
           ]
         },
         {
-          "DockedHeight": 653,
+          "DockedWidth": 68,
           "SelectedChildIndex": -1,
           "Children": [
             {

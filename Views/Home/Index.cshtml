@@ -4,24 +4,38 @@
 
 @model List<Forum.Models.Discussion>
 
-<h1 class="text-center my-4">Latest Discussions</h1>
+
+<div class="container">
+    <h1>Welcome to our forum!</h1>
+    <p class="text-center" >StudentsUnite is a forum that was created so students can share their opinions, ideas and experiences with each oter, because as we know, knowlege is power!</p>
+</div>
+
+@if (Model.Count > 0)
+{
+    <h6 class="text my-4">Latest Discussions</h6>
+}
 
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             @foreach (var discussion in Model)
             {
-                <a class="card mb-4 text-decoration-none text-dark" asp-action="OpenDiscussion" asp-controller="Comments" asp-route-id="@discussion.Id">
-                    <div class="card-body">
-                        <h5 class="card-title">@discussion.name</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Posted by @discussion.user in @discussion.category on @discussion.dateOfCreation.ToString("g")</h6>
-                        <p class="card-text">@discussion.description</p>
-                        @if (discussion.user == User.Identity.Name || User.IsInRole("Admin"))
-                        {
-                            <a class="btn btn-secondary btn-sm" asp-action="EditDiscussion" asp-controller="Discussions" asp-route-id="@discussion.Id" onclick="event.stopPropagation();">Edit</a>
-                        }
+                <div class="card mb-4">
+                    <div class="card-body custom-card-body">
+                        <a class="text-decoration-none text-dark" asp-action="OpenDiscussion" asp-controller="Comments" asp-route-id="@discussion.Id">
+                            <h5 class="card-title">@discussion.name</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Posted by @discussion.user on @discussion.dateOfCreation.ToString("g")</h6>
+                            <p class="card-text mb-3">@discussion.description</p>
+                        </a>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h6 class="card-subtitle mb-0 text-muted me-3">Tags: @discussion.category</h6>
+                            @if (discussion.user == User.Identity.Name || User.IsInRole("Admin"))
+                            {
+                                <a class="btn btn-edit btn-sm" asp-action="EditDiscussion" asp-controller="Discussions" asp-route-id="@discussion.Id" onclick="event.stopPropagation();">Edit</a>                           
+                            }
+                        </div>
                     </div>
-                </a>
+                </div>
             }
         </div>
     </div>

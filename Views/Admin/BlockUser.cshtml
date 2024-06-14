@@ -10,6 +10,7 @@
 
 @model ForumUser
 
+
 <h1> Users</h1>
 
 @if (Model == null)
@@ -28,7 +29,7 @@ else
             <th>Phone Number</th>
 
             <th>Block User</th>
-            <th>Discutions</th>
+            <th>Discussions</th>
         </tr>
     </thead>
     <tbody>
@@ -37,14 +38,13 @@ else
                 <td>@Model.UserName</td>
                 <td>@Model.Email</td>
                 <td>@Model.PhoneNumber</td>
-            </tr>
-            <tr>
+
             <td>
                 <form method="post">
-                    <button type="submit" class="btn btn-danger ms-3" asp-action="BlockUser" asp-controller="Admin">Block</button>
+                        <button class="btn btn-danger" type="submit" asp-action="BlockUser" asp-controller="Admin">Block</button>
                 </form>
             </td>
-            <td><a class="btn btn-primary" asp-controller="Admin" asp-action="ListUsers">Back</a></td>
+                <td><a class="btn btn-dark"  asp-controller="Admin" asp-action="ListUsers">Back</a></td>
             </tr>
     </tbody>
 </table>

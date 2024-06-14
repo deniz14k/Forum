@@ -1,22 +1,401 @@
+a.navbar-brand {
+    white-space:normal;
+    text-align: center;
+    word-break: break-all;
+
+    padding-right: 80px;
+}
+
+.nav-item {
+
+    font-size: 14px;
+}
+
+a.btn.btn-primary
+{
+    
+}
+
+a {
+
+    color: #0077cc;
+    color:blue;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+
+
 html {
-  font-size: 14px;
+    font-size: 20ppx;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 22px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+
+a#profile.nav-link {
+    color: #0b001e;
+}
+
+
+
+img.logo{
+    
+    border-radius:50%;
+   width:8%;
+  position:fixed;
+   right:91.6%;
+   top:7%;
+}
+
+
+body {
+    background-color: lightgray;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url(images/Background.jpg);
+}
+
+
+button.btn.btn-danger.ms-3{
+    position:fixed;
+    right:70%;
+    top:56.6%;
+    
+}
+
+navbar_logo{
+    max-height:20px;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #0062E6, #33AEFF);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .nav-link {
+    color: #0b001e;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+    .navbar-brand:hover, .nav-link:hover {
+        color: #0b5773 !important;
+    }
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.7%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 1010px) {
+    .navbar-brand, .nav-link {
+        font-size: 1rem; /* Slightly smaller on tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand, .nav-link {
+        font-size: 1rem; /* Even smaller on mobile devices */
+    }
+}
+
+
+
+/* Floating add discussion button*/
+.floating-btn-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.floating-btn {
+    border-radius: 50%;
+    padding: 15px 20px;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.floating-btn:hover {
+    background-color: #0056b3; /* Change this to your preferred hover color */
+}
+
+/* Open discussion styling */
+.discussion-post {
+background-color: #ffffff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+
+.discussion-post h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.discussion-post .details p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.add-comment-section {
+border-top: 1px solid #e9ecef;
+padding-top: 20px;
+margin-top: 20px;
+}
+
+.form-label {
+font-weight: bold;
+}
+
+.form-control {
+    width:100%;
+border-radius: 0.25rem;
+border: 1px solid #ced4da;
+}
+
+.btn-primary {
+background-color: #007bff;
+border-color: #007bff;
+border-radius: 0.25rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.custom-card-body {
+    background-color: #cad8e5; /* Light grey background */
+    padding: 1.5rem; /* Padding for better spacing */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+.btn-edit {
+    background-color: #00008b; /* Dark blue or navy blue color */
+    color: #ffffff; /* White text for readability */
+    border: none; /* Remove border for cleaner appearance */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0.5rem 1rem; /* Padding for button size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-edit:hover,
+.btn-edit:focus {
+    background-color: #0000cd; /* Slightly lighter blue on hover/focus */
+    color: #ffffff; /* Maintain white text color */
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+    .search-container form {
+        display: block;
+        width: 100%; /* Set the form width to 100% */
+        background-color: #cad8e5;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .search-container input[type="text"],
+    .search-container input[type="submit"] {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+
+    .search-container input[type="text"] {
+        width: 60%;
+    }
+
+    .search-container input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .search-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+    .search-container label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+
+.form-container {
+    background-color: #cad8e5;
+    border-radius: 15px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px; 
+    margin-top: 20px; 
+    min-height:500px;
+}
+
+h1 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 30px; /* Add margin bottom */
+}
+
+.form-label {
+    font-weight: bold; /* Make form labels bold */
+}
+
+.btn-group {
+    display: flex; /* Use flexbox to display buttons horizontally */
+    justify-content: space-between; /* Space buttons evenly */
+    margin-top: 20px; /* Add margin-top for spacing */
+}
+
+.btn {
+    border-radius: 20px; /* Make button rounded */
+}
+
+.discussion-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.discussion-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.custom-card-body {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add-comment-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.comment-actions {
+    margin-top: 20px;
+}
+
+    .comment-actions button {
+        margin-right: 10px;
+    }
+
+.btn-group-custom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+    .btn-group-custom .btn {
+        width: 45%;
+        border-radius: 20px;
+    }
+
+.reply-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+    .reply-form .btn {
+        margin-right: 10px;
+    }
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .comment-list li {
+        margin-bottom: 20px;
+    }
+
+        .comment-list li ul {
+            margin-left: 20px;
+        }
+
+            .comment-list li ul li {
+                margin-bottom: 10px;
+            }
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-content {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    text-align:justify;
 }

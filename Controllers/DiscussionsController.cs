@@ -132,6 +132,8 @@ namespace StudentsUnite_II.Controllers
             ViewData["CurrentFilter"] = searchString;
             ViewData["MyDiscussions"] = myDiscussions;
 
+     
+
             return View(discussions);
         }
 
@@ -216,11 +218,11 @@ namespace StudentsUnite_II.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteDiscussion(Discussion viewModel)
         {
-            var discussion = await dbContext.Discussions.AsNoTracking().FirstOrDefaultAsync(x => x.Id == viewModel.Id);
+            var discussion = await dbContext.Discussions.AsNoTracking().FirstOrDefaultAsync(x => x.name == viewModel.name);
 
             if (discussion != null)
             {
-                dbContext.Discussions.Remove(viewModel);
+                dbContext.Discussions.Remove(discussion);
                 await dbContext.SaveChangesAsync();
             }
 

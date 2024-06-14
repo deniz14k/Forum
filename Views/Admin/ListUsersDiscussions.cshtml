@@ -13,22 +13,21 @@
 <table class="table">
     <thead>
         <tr>
-            <th>Id</th>
+           
             <th>Name</th>
             <th>User</th>
             <th>Category</th>
             <th>Posted At</th>
             <th>Description</th>
 
-            <th> </th>
-            <th> </th>
+            <th>Delete </th>
         </tr>
     </thead>
     <tbody>
         @foreach (var discussion in Model)
         {
             <tr>
-                <th>@discussion.Id</th>
+                
                 <td>@discussion.name</td>
                 <td>@discussion.user</td>
                 <td>@discussion.category</td>
@@ -36,7 +35,7 @@
                 <td>@discussion.description</td>
                 <td>
                     <form method = "post">
-                        <button type="submit" class="btn btn-danger ms-3" asp-controller="Admin" asp-action="DeleteDiscussion" asp-route-id="@discussion.Id">Delete</button>
+                        <button type="submit" asp-controller="Admin" asp-action="DeleteDiscussion" asp-route-id="@discussion.Id">Delete</button>
                     </form>
                    
                 </td>
